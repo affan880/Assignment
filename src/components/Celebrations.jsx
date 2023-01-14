@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 import Octicons from 'react-native-vector-icons/Octicons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { Box, Icon, Input, Text, ScrollView, Avatar, Button, VStack, HStack, Row } from 'native-base'
+import avatar1 from '../assets/avatar1.png'
+import avatar2 from '../assets/avatar2.png'
+import avatar3 from '../assets/avatar3.png'
 import MySpaceAvatar from '../assets/myspace.png'
 
 const { width, height } = Dimensions.get('window')
@@ -12,7 +15,7 @@ const Celebrations = () => {
         {
             id: 1,
             name: "Shubham",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             event: "Birthday",
             bgColor: "green.200",
             textColor: "green.600"
@@ -20,7 +23,7 @@ const Celebrations = () => {
         {
             id: 2,
             name: "Yash",
-            avatar: MySpaceAvatar,
+            avatar: avatar3,
             event: "Marriage Anniversary",
             bgColor: "blue.200",
             textColor: "blue.600"
@@ -28,7 +31,7 @@ const Celebrations = () => {
         {
             id: 3,
             name: "Riku",
-            avatar: MySpaceAvatar,
+            avatar: avatar1,
             event: "Work Anniversary",
             bgColor: "purple.200",
             textColor: "purple.600"
@@ -42,6 +45,7 @@ const Celebrations = () => {
             textColor: "orange.600"
         },
     ]
+    
   return (
       <VStack space={4} mt={50} width={width - 20} shadow={7} bg={'white'} rounded={"3xl"} alignSelf={'center'} py={10} >
           <Text px={5} style={{

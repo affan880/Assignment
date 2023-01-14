@@ -3,8 +3,10 @@ import React,{useState} from 'react'
 import Octicons from 'react-native-vector-icons/Octicons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { Box, Icon, Input, Text, ScrollView, Avatar, Button, VStack, HStack, Row } from 'native-base'
+import avatar1 from '../assets/avatar1.png'
+import avatar2 from '../assets/avatar2.png'
+import avatar3 from '../assets/avatar3.png'
 import MySpaceAvatar from '../assets/myspace.png'
-
 
 const { width, height } = Dimensions.get('window')
 
@@ -13,7 +15,7 @@ const MyTeam = () => {
         {
             id: 1,
             name: "Sahil",
-            avatar: MySpaceAvatar,
+            avatar: avatar1,
             position: "Trainee",
             status: "Present",
             statusColor: "green.400",
@@ -22,7 +24,7 @@ const MyTeam = () => {
         {
             id: 2,
             name: "Rashmi",
-            avatar: MySpaceAvatar,
+            avatar: avatar3,
             position: "Trainee",
             status: "Present",
             statusColor: "green.400",
@@ -31,7 +33,7 @@ const MyTeam = () => {
         {
             id: 3,
             name: "Manisha",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             position: "HR",
             status: "Present",
             statusColor: "green.400",
@@ -49,7 +51,7 @@ const MyTeam = () => {
         {
             id: 5,
             name: "Aditya",
-            avatar: MySpaceAvatar,
+            avatar: avatar3,
             position: "HR",
             status: "Present",
             statusColor: "green.400",
@@ -58,7 +60,7 @@ const MyTeam = () => {
         {
             id: 6,
             name: "Neeraj",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             position: "HR",
             status: "Present",
             statusColor: "green.400",
@@ -69,7 +71,7 @@ const MyTeam = () => {
         {
             id: 2,
             name: "Rashmi",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             position: "Trainee",
             status: "Present",
             statusColor: "orange.400",
@@ -78,7 +80,7 @@ const MyTeam = () => {
         {
             id: 3,
             name: "Manisha",
-            avatar: MySpaceAvatar,
+            avatar: avatar3,
             position: "HR",
             status: "Present",
             statusColor: "orange.400",
@@ -96,7 +98,7 @@ const MyTeam = () => {
         {
             id: 6,
             name: "Neeraj",
-            avatar: MySpaceAvatar,
+            avatar: avatar1,
             position: "HR",
             status: "Present",
             statusColor: "orange.400",
@@ -119,7 +121,7 @@ const MyTeam = () => {
         {
             id: 1,
             name: "Sahil",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             position: "Trainee",
             status: "Present",
             statusColor: "green.400",
@@ -128,7 +130,7 @@ const MyTeam = () => {
         {
             id: 2,
             name: "Rashmi",
-            avatar: MySpaceAvatar,
+            avatar: avatar1,
             position: "Trainee",
             status: "Present",
             statusColor: "red.400",
@@ -137,7 +139,7 @@ const MyTeam = () => {
         {
             id: 3,
             name: "Manisha",
-            avatar: MySpaceAvatar,
+            avatar: avatar3,
             position: "HR",
             status: "Present",
             statusColor: "orange.400",
@@ -155,7 +157,7 @@ const MyTeam = () => {
         {
             id: 5,
             name: "Aditya",
-            avatar: MySpaceAvatar,
+            avatar: avatar2,
             position: "HR",
             status: "Present",
             statusColor: "red.400",
@@ -164,7 +166,7 @@ const MyTeam = () => {
         {
             id: 6,
             name: "Neeraj",
-            avatar: MySpaceAvatar,
+            avatar: avatar1,
             position: "HR",
             status: "Present",
             statusColor: "orange.400",

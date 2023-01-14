@@ -17,7 +17,7 @@ const { width, height } = Dimensions.get('window')
 const Home = () => {
 
     return (
-        <ScrollView flex={1} backgroundColor="white" style={{
+        <ScrollView flex={1} backgroundColor="white" showsVerticalScrollIndicator={false} style={{
             marginBottom: 90
         }}>
            <Announcement/>
@@ -32,13 +32,3 @@ const Home = () => {
 }
 
 export default Home;
-
-const styles = StyleSheet.create({
-    scrollbar: {
-        // position:"absolute",
-        right: 0,
-        width: 30,
-        alignSelf: "flex-start",
-        borderRadius: 10,
-    },
-});

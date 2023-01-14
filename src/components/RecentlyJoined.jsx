@@ -3,6 +3,9 @@ import React,{useRef} from 'react'
 import { Box, Icon, Input, Text, ScrollView, Avatar, Button, VStack, HStack, Row } from 'native-base'
 import Octicons from 'react-native-vector-icons/Octicons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import avatar1 from '../assets/avatar1.png'
+import avatar2 from '../assets/avatar2.png'
+import avatar3 from '../assets/avatar3.png'
 import MySpaceAvatar from '../assets/myspace.png'
 
 const { width, height } = Dimensions.get('window')
@@ -26,7 +29,7 @@ const RecentlyJoined = () => {
         {
             id: 2,
             name: "Megha",
-            image: MySpaceAvatar,
+            image: avatar1,
             borderColor: "blue.400",
             backgroundColor: "blue.200",
             textColor: "blue.500",
@@ -36,7 +39,7 @@ const RecentlyJoined = () => {
         {
             id: 3,
             name: "Ravi",
-            image: MySpaceAvatar,
+            image:avatar2,
             borderColor: "red.400",
             backgroundColor: "red.200",
             textColor: "red.500",
@@ -45,7 +48,7 @@ const RecentlyJoined = () => {
         {
             id: 4,
             name: "Rashmi",
-            image: MySpaceAvatar,
+            image: avatar3,
             borderColor: "yellow.400",
             backgroundColor: "yellow.100",
             textColor: "yellow.500",

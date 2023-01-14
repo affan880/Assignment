@@ -6,7 +6,7 @@ import MySpace from '../../screens/MySpace/mySpace'
 import Notifications from '../../screens/Notifications/notifications'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import { Icon, Avatar } from 'native-base'
-import MySpaceAvatar from "../../assets/myspace.png"
+import MySpaceAvatar from "../../assets/avatar2.png"
 
 const Tab = createBottomTabNavigator()
 
